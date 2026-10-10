@@ -210,8 +210,8 @@ const addArtworksToDatabase = async () => {
   }
 };
 
-app.listen(PORT, async () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+app.listen(process.env.PORT || 3000, async () => {
+  console.log(`Server running on port ${process.env.PORT || 3000}`);
 
   await addArtworksToDatabase();
 

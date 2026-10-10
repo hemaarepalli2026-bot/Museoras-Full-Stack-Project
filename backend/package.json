@@ -1,9 +1,10 @@
 {
-  "name": "backend",
+  "name": "museoras-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for Museoras Full Stack Project",
+  "main": "Server.js",
   "scripts": {
+    "start": "node Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
