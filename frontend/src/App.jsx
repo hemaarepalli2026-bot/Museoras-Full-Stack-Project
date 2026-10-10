@@ -13,7 +13,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/artworks")
+    fetch("https://museoras-full-stack-project-backend.onrender.com/api/artworks")
       .then((response) => response.json())
       .then((data) => setArtworks(data))
       .catch((error) =>
